@@ -1,0 +1,6 @@
+export * from './components/ComprasTable'
+export * from './components/RegistrarCompraModal'
+export * from './components/InfoCompraModal'
+export * from './pages/ComprasPage'
+export * from './hooks/useCompras'
+export * from './store/compraSlice'

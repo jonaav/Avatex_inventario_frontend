@@ -1,0 +1,123 @@
+/* Modal */
+.ReactModalPortal>div {
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity .2s ease-in-out;
+    z-index: 999;
+}
+
+.modal-fondo {
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.modal {
+    background: white;
+    border-radius: 15px;
+    color: rgb(51, 51, 51);
+    display: inline;
+    padding: 15px;
+}
+
+/* --- Tablas --- */
+/* Celdas head */
+th.MuiTableCell-root.MuiTableCell-head {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Celdas body */
+td.MuiTableCell-root.MuiTableCell-body {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* --- Paginación --- */
+/* Texto N° de filas*/
+p.MuiTablePagination-selectLabel {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: auto;
+}
+
+/* Selector de n° de filas */
+.MuiSelect-select.MuiTablePagination-select {
+    font-size: 18px;
+}
+
+/* icono */
+.MuiSelect-icon.MuiTablePagination-selectIcon {
+    color: white;
+}
+
+/* Rango de filas */
+p.MuiTablePagination-displayedRows {
+    font-size: 18px;
+}
+
+/* --- Swal buttons --- */
+/* Swal button success */
+.custom-confirm-button {
+    background-color: #207AC9;
+    color: #fff;
+    border: 2px solid #207AC9;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-confirm-button:hover {
+    background-color: #114C82;
+    color: #fff;
+}
+
+/* Swal button error */
+
+/* .custom-error-button {
+    background-color: #C85656;
+    color: #fff;
+    border: 2px solid #C85656;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-error-button:hover {
+    background-color: #C90000;
+    color: #fff;
+} */
+
+
+/* Form fecha */
+.react-datepicker-wrapper {
+    width: 100%;
+}
+.react-datepicker__input-container input {
+    border-color: rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+}
+.react-datepicker__input-container input:hover {
+    border-color: rgb(51, 51, 51); /* Cambia el color al pasar el mouse */
+}
